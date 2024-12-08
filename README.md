@@ -19,8 +19,11 @@ END OF PROGRAM
 
 ## Program:
 import numpy as np
+
 A = np.array([[2, 2],[1, 3]])
+
 eigenvalues, eigenvectors = np.linalg.eig(A)
+
 print("Eigen values are", eigenvalues,"and Eigen Vectors are", eigenvectors)
 
 
